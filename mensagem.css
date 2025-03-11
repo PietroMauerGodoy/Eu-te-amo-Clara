@@ -1,0 +1,99 @@
+body {
+ 
+    line-height: 1.6rem;
+    background-color: #fae1dd;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*HEADER(CABEÇALHO)*/
+
+header {
+    font-family: titulo;
+    position: fixed;
+    width: 100%;
+    background-color: #facec8;
+    color: white;
+    padding: 30px 20px;
+    z-index: 10;
+
+}
+    
+header nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 16px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+#about {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 219, 218);
+    background-color: #fae1dd;
+    padding: 40px 0;
+}
+
+.content {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.text-section {
+    flex-basis: 50%;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.text-section h2 {
+    font-family: titulo;
+    font-size: 2.4em;
+    margin-bottom: 0.5em;
+    color: #423f3f;
+}
+
+.text-section p {
+    font-family: subTitulo;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.image-section {
+    flex-basis: 50%;
+    text-align: left;
+    margin-left: 37px;
+    margin-top: 100px; 
+}
+
+.image-section img {
+    max-width: 120%;
+    height: auto;
+}
+
